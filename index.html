@@ -1,0 +1,126 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favourite Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js">
+   
+    </script>
+    
+</head>
+<body>
+   <nav class="topnav">
+      <li><a onclick="Home()">Home</a></li>
+      <li><a onclick="GameO()">Game Overview</a></li>
+      <li><a onclick="myFunction()">Game Highlight</a></li>
+      <li><a onclick="Gets()">Get started</a></li>
+      <li><a onclick="BM()">Quiz</a></li>
+   </nav>
+   <main>
+
+   <div id="home" >
+      <h2 >Tennis : A game of passion</h2>
+      <p>Welcome to Tennis World! 🎾 Whether you're a seasoned pro or just starting out, our goal is to bring you closer to the exhilarating sport of tennis. Tennis is a game that combines physical prowess, mental toughness, and strategic thinking. It's not just a sport but a lifelong passion for many. On this site, you'll find everything you need to get started, improve your game, and keep up with the latest news and trends in the tennis world. Let's serve up some excitement!
+
+      </p>
+      <footer>
+         <p class="footer">
+            &#169; Made by ARVIND<br>
+            <a href="https://www.atptour.com/en" class="link">Official Tennis Matches</a>
+         </p>
+      </footer>
+   </div>
+
+    <div id="Gameo" style="display:none">
+      <h2>Game OverView</h2>
+    <p>
+        Tennis is a racket sport that can be played individually against a single opponent (singles) or between two teams of two players each (doubles). The game is played on a rectangular court divided by a net, with players using a stringed racket to hit a hollow rubber ball covered with felt over or around the net and into the opponent's court.<br>
+The objective of tennis is to score points by hitting the ball in such a way that the opponent is not able to play a valid return. The game can be played on various surfaces such as grass, clay, and hard courts, each adding a unique twist to the gameplay.<br>
+Tennis is known for its iconic matches and legendary players who have left a mark on the sport's rich history. It’s a game of skill, strategy, and endurance that captivates millions of fans worldwide.
+    </p>
+    <footer>
+      <p class="footer">
+         &#169; Made by ARVIND<br>
+         <a href="https://www.atptour.com/en" class="link">Official Tennis Matches</a>
+      </p>
+   </footer>
+    </div>
+
+    <div id="title" style="display:none">
+      <h2 >Game HighLights</h2>
+       <p>Four Grand Slam Tournaments: The pinnacle of tennis competition includes the Australian Open, French Open, Wimbledon, and the US Open. Each tournament brings its own unique flair and challenges, attracting the best players from around the globe
+         <br><br>
+         Iconic Rivalries: Tennis has seen some of the most thrilling rivalries in sports history. From Federer vs. Nadal to Williams vs. Sharapova, these matches have delivered unforgettable moments.
+         <br><br>
+         Legendary Players: Icons like Roger Federer, Serena Williams, Rafael Nadal, and Novak Djokovic have not only dominated the sport but have also inspired new generations of players and fans.
+         <br><br>
+         Olympic Sport: Tennis has been a part of the modern Olympic Games since 1988, with players competing for the prestigious gold medal in singles and doubles events.
+         <br><br>
+         Global Appeal: Tennis is played and watched by millions across the world, making it one of the most popular and inclusive sports.
+       </p>
+       <footer>
+         <p class="footer">
+            &#169; Made by ARVIND<br>
+            <a href="https://www.atptour.com/en" class="link">Official Tennis Matches </a>
+         </p>
+      </footer>
+    </div>
+
+      <div id="get" style="display:none">
+         <h2 >Get Started</h2>
+     <p>
+        Getting started with tennis is easier than you might think! Here’s a quick guide to help you begin your journey into this exciting sport:
+        <br><br>    
+        Equipment: Start with the basics – a good tennis racket and some tennis balls. You can find beginner-friendly options that are affordable and suited to your skill level.
+        <br><br>
+        Find a Court: Tennis courts are widely available in parks, recreation centers, and schools. Many communities have public courts that you can use for free or for a small fee.
+        <br><br>
+        Learn the Basics: Familiarize yourself with the basic rules of tennis, including scoring and gameplay. There are plenty of online resources and tutorials that can help you understand the fundamentals.
+        <br><br>
+        Take Lessons: Consider taking lessons from a certified tennis coach. They can provide valuable guidance on proper technique and help you improve your skills more quickly.
+        <br><br>
+        Practice Regularly: Consistency is key in tennis. Practice regularly to develop your skills, improve your fitness, and build your confidence on the court.
+        <br><br>
+        Join a Community: Connect with local tennis clubs or online communities. This will provide you with opportunities to play with others, participate in tournaments, and stay motivated.
+        <br><br>
+        Stay Inspired: Watch professional tennis matches to learn from the pros. Seeing their strategies and techniques in action can provide valuable insights and inspiration.
+        <br><br>
+        Remember, the most important part of getting started is to have fun and enjoy the game. Tennis is a sport that offers endless opportunities for growth and enjoyment. So grab your racket, head to the nearest court, and start your tennis journey today!
+     </p>
+     
+      </div>
+
+      <div id="video"  class="quiz" style="display: none;">
+         <h2>Interesting Quizzes</h2>
+         <p> What is the standard width of a singles tennis court</p>
+         <ol>
+            <li><a onclick="correct()">8.23 meters (27 feet)</a></li>
+            <li><a onclick="incorrect()">10.97 meters (36 feet)</a></li>
+            <li><a onclick="incorrect()">6.40 meters (21 feet)</a></li>
+            <li><a onclick="incorrect()">7.32 meters (24 feet)</a></li>
+         </ol>
+         <p1 id="ans1"></p1>
+         <p>  In tennis, what is the term used for a score of zero?</p>
+         <ol>
+            <li><a onclick="correct1()" >Love</a></li>
+            <li><a onclick="incorrect1()" >deuce</a></li>
+            <li><a onclick="incorrect1()">Advantage</a></li>
+            <li><a onclick="incorrect1()">Fault</a></li>
+         </ol>
+         <p1 id="ans2"></p1>
+         <p> How many chances does a player get to serve the ball correctly in tennis?</p>
+         <ol>
+            <li><a onclick="incorrect2()">1</a></li>
+            <li><a onclick="correct2()">2</a></li>
+            <li><a onclick="incorrect2()">3</a></li>
+            <li><a onclick="incorrect2()">4</a></li>
+         </ol>
+         <p1 id="ans3"></p1>
+         
+      </div>
+      
+    </main>
+
+</body>
+</html>
